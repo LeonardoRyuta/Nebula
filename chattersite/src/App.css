@@ -77,7 +77,7 @@
     min-height: 3rem;
     background-color: grey;
     border-radius: 10px;
-    width: min-content;
+    width: auto;
     max-width: 93.5rem;
     inline-size:inherit;
     display: flex;
