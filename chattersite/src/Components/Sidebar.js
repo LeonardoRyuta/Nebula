@@ -183,8 +183,9 @@ export class Sidebar extends Component {
                 </Modal>
                 
                 <div id="pageRooms" className="rooms">
-                    <div className="createRoom" onClick={()=>{this.createModal()}}>
-                        Create Room
+                    <div className="createRoom" aria-disabled onClick={()=>{this.createModal()}}>
+                        {/* Create Room */}
+                        SOON
                     </div>
                     <div className="roomStyle1" onClick={()=>{window.location.href = "/"}}>
                         <div className="displayRooms">
