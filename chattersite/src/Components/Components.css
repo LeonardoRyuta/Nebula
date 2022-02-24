@@ -1,0 +1,179 @@
+.nav{
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    height: 2rem;
+    width: 100%;
+    background-color: #1D0B1B;
+    border-bottom: 1px solid rgb(88, 82, 82);
+}
+
+.userName{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.nameArea{
+    height: 100%;
+    width: 100%;
+}
+
+.inputName{
+    width: 50%;
+    border: 2px solid black;
+    margin: 0 1.5rem;
+}
+
+.alert{
+    opacity: 90%;
+    width: 30%;
+}
+
+.annonimity{
+    position: fixed;
+    display: flex;
+}
+
+.stateImg{
+    height: 1.5rem;
+    padding: 0 1rem 0 3rem;
+}
+
+.sideBar1{ 
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    position: fixed;
+    left: 0px;
+    height: 100%;
+    width: 30%;
+    background-color: #290121;
+    /* background-color: #ffffff; */
+    transition:transform 1s;
+    -webkit-transition:transform 1s;
+    -moz-transition: transform 1s;
+}
+
+.navSidebar{
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    height: 2rem;
+    width: 100%;
+    background-color: #290121;
+    /* background-color: #ffffff; */
+    border-bottom: 1px solid rgb(88, 82, 82);
+    transition:transform 1s;
+    -webkit-transition:transform 1s;
+    -moz-transition: transform 1s;
+}
+
+.sideBar1{
+    transform: translateX(-95%);    
+}
+
+.sideBar1:hover,
+.sideBar1:focus{
+    transform: translateX(0%);
+}
+
+.rooms {
+    margin-top: 5rem;
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.displayRooms {
+    margin: 1rem 1rem;
+    color: aliceblue;
+}
+
+.roomStyle{
+    margin: 1rem 2rem;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.roomStyle:hover{
+    opacity: 50%;
+}
+
+.roomStyle1{
+    margin: 1rem 2rem;
+    background-color: rgb(226, 131, 43);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.roomStyle1:hover{
+    opacity: 50%;
+}
+
+.colorPreview{
+    height: 20px;
+    width: 20px;
+}
+
+.colorPicker{
+    display: flex;
+}
+
+.sideTabs{
+    padding: 1rem;
+}
+
+.sideTabs:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.dmStyle{
+    margin: 1rem 2rem;
+    background-color: rgb(0, 88, 170);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.createRoom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    margin: 1rem 10rem;
+    background-color: rgb(228, 118, 118);
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.createRoom:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.stateToggle{
+    width: 2rem;
+    margin: 0 1rem;
+}
+
+.inputPassword{
+    background-color: rgb(128, 128, 128, 0.2);
+    margin: 0.5rem 0;
+}

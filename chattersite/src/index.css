@@ -1,0 +1,61 @@
+body {
+  background-color: #1D0B1B;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html body {
+  background-color: #1D0B1B;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input {
+  border: none; /* Removes the default border */
+}
+
+input:focus {
+  outline: none /* Removes the border when the input is clicked */
+}
+
+input[type="file"] {
+  background-color: aliceblue;
+}
+
+button {
+  border: none; /* Removes the default border */
+}
+
+button:focus {
+  outline: none 
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #a414cc #b89bc5;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #b89bc5 20%;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #a414cc;
+    border-radius: 28px;
+    border: 3px solid #b292b5;
+  }

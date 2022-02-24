@@ -1,0 +1,134 @@
+.main{
+    overflow-x: hidden;
+    position:absolute;
+}
+
+.inputs{
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+}
+
+.inputs2{
+    width: 100%;
+    padding-top: 4rem;
+}
+
+.inputPart{
+    background-color: #3d243b;
+    margin: 0.5rem 5%;
+    height: 3rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messageInput{
+    color: antiquewhite;
+    background: transparent;
+    height: 100%;
+    width: 90%;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+}
+
+.inputArea{
+    display: flex;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.msgSendBut{
+    display: none;
+    align-items: center;
+    font-size: 2rem;
+    background-color: transparent;
+    color: rgb(224, 120, 71);
+    border-radius: 50px;
+    height: 2rem;
+}
+
+.msgSendBut:hover{
+    cursor: pointer;
+}
+
+.imgButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: #b186ad;
+    border-radius: 50px;
+    height: 2rem;
+}
+
+.chatPart{
+    padding: 1.5rem 1.5rem 0 4.2rem;
+    min-height: 90vh;
+}
+
+/* input[type='file'] {
+    color: rgba(0, 0, 0, 0)
+  } */
+
+.message{
+    margin: 1rem;
+    min-height: 3rem;
+    background-color: grey;
+    border-radius: 10px;
+    width: min-content;
+    max-width: 93.5rem;
+    inline-size:inherit;
+    display: flex;
+    align-items: center;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    hyphens: auto;
+    white-space: normal;
+}
+
+.innerText{
+    padding: 0.5rem;
+}
+
+.image{
+    overflow: hidden;
+    margin: 1rem;
+    min-height: 3rem;
+    max-height: 30rem;
+    background-color: grey;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    min-height: 3rem;
+    max-height: 29rem;
+}
+
+.hidden{
+    display: none;
+}
+
+.iframe{
+    border-radius: 10px;
+}
+
+.lockedScreen{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    color: #b186ad;
+}
+
+.lockedScreenContent{
+    margin: 1rem;
+}
