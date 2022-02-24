@@ -183,7 +183,8 @@ export class Sidebar extends Component {
                 </Modal>
                 
                 <div id="pageRooms" className="rooms">
-                    <div className="createRoom" aria-disabled onClick={()=>{this.createModal()}}>
+                {/* onClick={()=>{this.createModal()}} */}
+                    <div className="createRoom" disabled >
                         {/* Create Room */}
                         SOON
                     </div>
