@@ -191,11 +191,11 @@ export default class App extends Component {
               :
               <div>
                 <div id="chatPart" className="chatPart">
-                  <div className="message">
+                  {/* <div className="message">
                     <div className="innerText">
                       This is a test message
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="inputs2"></div>
                 <div className="inputs">
