@@ -37,14 +37,14 @@ export default class App extends Component {
 
     this.roomState = this.cookies.get('roomState')
 
-    this.roomState.forEach((room) => {
-      console.log(room)
-      if (this.currentUrl === room.roomPath){
-        if (room.roomState === "Public"){
-          this.setState({locked: false})
-        }
-      }
-    })
+    // this.roomState.forEach((room) => {
+    //   console.log(room)
+    //   if (this.currentUrl === room.roomPath){
+    //     if (room.roomState === "Public"){
+    //       this.setState({locked: false})
+    //     }
+    //   }
+    // })
 
     this.socket.on('newMessage', (msg) => {
       if (msg.path === window.location.pathname){
