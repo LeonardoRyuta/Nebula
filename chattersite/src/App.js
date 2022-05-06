@@ -122,6 +122,10 @@ export default class App extends Component {
             return(
               <div className="message" key={msg.message} style={{backgroundColor: msg.bg}}>
                 <div className="innerText">
+                  <b>{msg.user}</b> <br/>
+                  <p style={{color: msg.txt}}>
+                    {msg.message}
+                  </p>
                   <iframe src={msg.message} id="serverurl" width="500" height="300" className="iframe"></iframe>
                 </div>
               </div>
